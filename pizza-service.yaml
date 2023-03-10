@@ -6,7 +6,6 @@ spring:
       enabled: true
   config:
     fail-fast: true
-    username: pizzaS
     userpassword: password
   zipkin:
     base-url: http://localhost:9411/
