@@ -7,7 +7,7 @@ spring:
   config:
     fail-fast: true
     username: MyUserName
-    userpassword: MyPassword
+    userpassword: MyPasswordddf
   zipkin:
     base-url: http://localhost:9411/
   datasource:
