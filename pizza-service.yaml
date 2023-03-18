@@ -16,6 +16,11 @@ spring:
   cache:
     jcache:
       config: echache.xml
+eureka:
+  client:
+    service-url:
+      defaultZone: http://name:password@localhost:8761/eureka
+sfg:
 resilience4j:
   circuitbreaker:
     instances:
