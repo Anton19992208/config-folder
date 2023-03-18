@@ -11,7 +11,7 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://name:password@localhost:9999/eureka
+      defaultZone: http://name:password@localhost:8761/eureka
 sfg:
   pizzeria:
     pizza-service-host: http://localhost:8080
